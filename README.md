@@ -2,7 +2,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
-[![PyPI version](https://badge.fury.io/py/strands-tools-community.svg)](https://badge.fury.io/py/strands-tools-community)
+[![PyPI version](https://img.shields.io/pypi/v/strands-tools-community.svg)](https://pypi.org/project/strands-tools-community/)
+[![Downloads](https://img.shields.io/pypi/dm/strands-tools-community.svg)](https://pypi.org/project/strands-tools-community/)
 
 Community-built production-ready tools for [Strands Agents SDK](https://github.com/strands-agents/strands). Build powerful AI agents with seamless integrations for speech processing, CRM operations, and team notifications.
 
