@@ -10,8 +10,8 @@ long_description = (this_directory / "README.md").read_text(encoding="utf-8")
 
 setup(
     name="strands-tools-community",
-    version="0.1.0",
-    description="Community tools for Strands Agent SDK: Deepgram, HubSpot, Microsoft Teams",
+    version="0.2.0",
+    description="Meta-package for Strands community tools (convenience wrapper for strands-deepgram, strands-hubspot, strands-teams)",
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="Eray Keskin",
@@ -19,10 +19,10 @@ setup(
     url="https://github.com/eraykeskinmac/strands-tools-community",
     packages=find_packages(),
     install_requires=[
-        "strands-agents>=0.1.0",
-        "deepgram-sdk>=3.0.0",
-        "requests>=2.31.0",
-        "rich>=13.0.0",
+        "strands-agents>=1.11.0",
+        "strands-deepgram>=0.1.0",
+        "strands-hubspot>=0.1.0",
+        "strands-teams>=0.1.0",
     ],
     extras_require={
         "dev": [

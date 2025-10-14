@@ -7,6 +7,26 @@
 
 Community-built production-ready tools for [Strands Agents SDK](https://github.com/strands-agents/strands). Build powerful AI agents with seamless integrations for speech processing, CRM operations, and team notifications.
 
+## 📦 Installation Options
+
+This is a **meta-package** that bundles three Strands community tools for convenience. For new projects following Strands conventions, consider using individual packages:
+
+```bash
+# Individual packages (recommended for new projects)
+pip install strands-deepgram  # Speech processing
+pip install strands-hubspot   # CRM operations
+pip install strands-teams     # Teams notifications
+
+# Or install all three via meta-package
+pip install strands-tools-community
+```
+
+**Individual Package Links:**
+
+- 🎤 [strands-deepgram](https://github.com/eraykeskinmac/strands-deepgram) - Speech & audio processing
+- 🏢 [strands-hubspot](https://github.com/eraykeskinmac/strands-hubspot) - HubSpot CRM operations
+- 📢 [strands-teams](https://github.com/eraykeskinmac/strands-teams) - Microsoft Teams notifications
+
 ## 🚀 Features
 
 This package provides three production-ready tools that extend the capabilities of Strands agents:
